@@ -1,0 +1,26 @@
+---
+title: "PA 446 Final Project – Transit Access and Equity in Chicago"
+author: "Yifan Zhao"
+format:
+  html:
+    toc: true
+    code-fold: true
+params:
+  min_station:
+    value: 1
+    label: "Minimum CTA L stations per tract"
+  pov_threshold:
+    value: 0.2
+    label: "Poverty rate threshold for concern"
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+# 读取分析脚本或在此重现关键代码
+source("final.R") 
+---
+
+## 
